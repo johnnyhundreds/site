@@ -914,6 +914,7 @@ blockquote {
 /*# sourceMappingURL=maps/style.css.map */
 
 .hero-text {
+  color: white;
   font-size: 45px;
   filter: drop-shadow(1.5px 1.5px 1px #000);
   top: 400px; left: 25%; right: auto;
