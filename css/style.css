@@ -467,7 +467,8 @@ textarea.form-control {
 
 @media (max-width: 767px) {
   .hero-area {
-    padding: 250px 0 150px;
+    padding-right: 0;
+    padding-left: 0;
     overflow: hidden;
   }
 }
@@ -914,13 +915,55 @@ blockquote {
 /*# sourceMappingURL=maps/style.css.map */
 
 .hero-text {
-  color: white;
-  font-size: 45px;
-  filter: drop-shadow(1.5px 1.5px 1px #000);
-  top: 400px; left: 25%; right: auto;
+    color: white;
+    font-size: 30px;
+    filter: drop-shadow(1.5px 1.5px 1px #000);
+    top: 400px;
+    left: 8%;
+    right: auto;
+    padding-left: auto;
+    text-align: center;
   }
 
-#carouselTest img{object-fit: cover; height: 100vh;}
+#carouselTest img{object-fit: cover; height: 100vh; transition:(2 ease-in-out left);}
 
 
 #carouselTest {height: 100vh;}
+
+@media (max-width: 375px){
+.row .col-lg-11.mx-auto .hero-text.font-tertiary {
+    height: 150%;
+    font-size: 19px;
+    /* [disabled]font-size-adjust: 50%; */
+    text-align: center;
+    padding-right: 0px;
+    max-width: 100%;
+    display: block;
+    /* [disabled]-webkit-box-sizing: border-box; */
+    /* [disabled]-moz-box-sizing: border-box; */
+    /* [disabled]box-sizing: border-box; */
+    padding-left: 0px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: middle;
+    width: 50%;
+    line-height: 18pt;
+    text-shadow: 0px 0px 0px;
+}
+.navbar.navbar-expand-lg.navbar-dark .navbar-brand.font-tertiary.h3 img {
+    width: 100%;
+    margin-left: auto;
+    /* [disabled]padding-left: 5%; */
+}
+.navbar.navbar-expand-lg.navbar-dark .navbar-toggler .navbar-toggler-icon {
+}
+.navbar-toggler {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+
+}
